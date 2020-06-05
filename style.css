@@ -1,0 +1,544 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #fcd232;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background: #fcd232;
+  padding: 20px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  flex-wrap: nowrap;
+  border-bottom: transparent;
+  box-shadow: 1px 3px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.img-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.menu li {
+  color: black;
+  padding: 0 10px;
+  transition: 0.4s;
+  margin-top: 10px;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+ul.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 40px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.menu a:hover {
+  text-decoration: none;
+}
+.myCard {
+  border-radius: 0.7rem;
+}
+
+.customBtn {
+  background-color: #ff1300;
+  border: 1px solid #ff1300;
+  border-radius: 5px;
+  color: white;
+  padding: 7px 15px;
+}
+.customBtn .customBtn-margin {
+  margin-top: 31px;
+  padding: 5px 0;
+}
+
+.show-menu-btn,
+.hide-menu-btn {
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn {
+  margin-left: auto;
+}
+.show-menu-btn i {
+  line-height: 100px;
+}
+
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover {
+  color: #042a63;
+}
+
+.filter-button {
+  font-size: 18px;
+  background-color: #2f2e37;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  border-radius: none;
+  font-weight: bold;
+  border-right: 1px solid grey;
+  width: 33.3333%;
+  border-radius: 0;
+}
+
+.filter-button:focus {
+  background-color: #eb3b3b;
+  color: #2f2e37;
+  border-top: none;
+  border-bottom: none;
+}
+
+.filter-button:focus span i {
+  visibility: visible;
+}
+
+.filter-button span i {
+  visibility: hidden;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.btn:hover {
+  background-color: #eb3b3b;
+  color: #2f2e37;
+}
+.paragraph-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+.project-paragraph {
+  width: 80%;
+  float: left;
+  margin: 0;
+  font-size: 15px;
+}
+
+.fa-positioning {
+  display: flex;
+  width: 20%;
+  justify-content: flex-end;
+  align-items: center;
+  top: 50%;
+  font-size: 25px;
+}
+
+#chk {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+.hero-picture {
+  height: 60vh;
+  background-image: url("img/main-picture.jpg");
+  background-size: cover;
+}
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.main-heading {
+  text-align: center;
+}
+
+.intro-content {
+  color: white;
+}
+
+.myImg {
+  height: 170px;
+  overflow: hidden;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+
+.grow {
+  transition: all 0.5s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  z-index: 3;
+}
+
+.card-heading-marketing {
+  display: inline-block;
+  background-color: orangered;
+  padding: 3px 15px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.card-heading-design {
+  display: inline-block;
+  background-color: green;
+  padding: 3px 15px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.card-heading-programming {
+  display: inline-block;
+  background-color: rgb(83, 83, 221);
+  padding: 3px 15px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.card-heading-design p,
+.card-heading-marketing p,
+.card-heading-programming p {
+  margin-bottom: 0;
+}
+.myCard-text {
+  font-size: 18px;
+  line-height: 1.1;
+}
+.card-content {
+  font-size: 13px;
+  line-height: 1.3;
+}
+p {
+  margin-bottom: 0.5rem;
+}
+.card-heading p {
+  margin-bottom: 0;
+}
+.card-width {
+  width: 18rem;
+}
+
+.card:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
+.myBtn-card {
+  float: right;
+  background-color: #ff1300;
+  border: 1px solid #ff1300;
+  color: white;
+  padding: 5px 15px;
+  line-height: 1.4;
+  font-size: 15px;
+  margin-top: 40px;
+}
+.card-body a:hover {
+  text-decoration: none;
+  color: black;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.btnAll {
+  display: none;
+}
+
+#loadMore {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+#loadMore a {
+  background: #faa635;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  transition: all 0.25s ease-out;
+  -webkit-font-smoothing: antialiased;
+}
+#loadMore a:hover {
+  background-color: #042a63;
+}
+.myContainer-fluid {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #2f2e37;
+  color: white;
+  width: auto;
+  margin-top: auto;
+  padding: 10px 0;
+}
+.footer p {
+  margin-bottom: 0;
+}
+
+.myh1 {
+  font-size: 60px;
+}
+.filter-button.btn {
+  padding-right: 1rem;
+}
+.form-padding {
+  padding: 100px 0;
+}
+.padding-top {
+  padding-top: 100px;
+}
+small {
+  font-size: 60%;
+}
+.visibility-hidden {
+  visibility: hidden;
+  margin-top: 2px;
+}
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;
+}
+::-moz-placeholder {
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  font-style: italic;
+}
+.custom-select {
+  background: url("img/chevron-down.png") no-repeat right 0.9rem center/20px;
+  background-color: white;
+  height: calc(2.3em + 0.75rem + 2px);
+}
+
+.custom-select-1 {
+  background: url("img/chevron-up.png") no-repeat right 0.9rem center/20px;
+  background-color: white;
+}
+.was-validated .custom-select:valid {
+  background: url("img/chevron-down.png") no-repeat right 0.9rem center/20px;
+  background-color: white;
+}
+.was-validated .custom-select:invalid {
+  background: url("img/chevron-down.png") no-repeat right 0.9rem center/20px;
+  background-color: white;
+}
+.was-validated .custom-select-1:valid {
+  background: url("img/chevron-up.png") no-repeat right 0.9rem center/20px;
+  background-color: white;
+}
+.was-validated .custom-select-1:invalid {
+  background: url("img/chevron-up.png") no-repeat right 0.9rem center/20px;
+  background-color: white;
+}
+
+.form-control {
+  height: calc(2.3em + 0.75rem + 2px);
+}
+
+.btnForm {
+  background-color: #ff1300;
+  border: 1px solid #ff1300;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 0;
+}
+.btnForm:hover {
+  background-color: #ff1300;
+  color: white;
+}
+
+@media only screen and (max-width: 2560px) {
+  .myBtn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .header {
+    padding: 20px;
+  }
+  .customBtn {
+    padding: 3px 9px;
+  }
+  .menu li {
+    text-align: center;
+  }
+  .margin-sm {
+    margin-bottom: 30px;
+  }
+  .xs-h3 {
+    text-align: left;
+  }
+
+  .fb-border {
+    border-bottom: 1px solid lightslategray;
+    border-right: none;
+  }
+
+  .fb-border:nth-last-child() {
+    border-bottom: none;
+  }
+
+  .card-width {
+    width: 75rem;
+  }
+
+  .myCard-text {
+    font-size: 15px;
+  }
+  .project-paragraph {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  ul.menu {
+    margin-left: 10px;
+  }
+  .project-paragraph {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 5px 20px;
+  }
+
+  .show-menu-btn,
+  .hide-menu-btn {
+    display: block;
+  }
+  .show-menu-btn {
+    margin-left: auto;
+  }
+
+  .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: #333;
+    right: -100%;
+    top: 0;
+    text-align: left;
+    padding: 90px 0;
+    line-height: 3;
+    transition: 0.7s;
+    z-index: 1;
+  }
+  .menu a {
+    display: block;
+    color: white;
+    text-align: left;
+  }
+  ul.menu {
+    display: block;
+  }
+  .menu a:focus {
+    display: block;
+    color: white;
+    background-color: #2f2e37;
+  }
+  .hide-menu-btn {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: white;
+  }
+  .hide-xs-button {
+    display: none;
+  }
+
+  .filter-button {
+    margin-bottom: 0;
+    text-align: left;
+    width: 100%;
+  }
+  .grow:hover {
+    transform: none;
+  }
+  .project-paragraph {
+    font-size: 14px;
+  }
+
+  #chk:checked ~ .menu {
+    right: 0;
+  }
+  .myBtn {
+    display: block;
+  }
+  .margin-sm {
+    margin-bottom: 30px;
+  }
+  .myBtn.d-xs-none {
+    margin-top: 20px;
+    padding: 0px 5px;
+  }
+  .myh1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  .hero-picture {
+    height: 35vh;
+  }
+  .main-heading {
+    text-align: left;
+  }
+
+  .customBtn-margin {
+    margin-top: 150px;
+  }
+  .card-width {
+    width: 25rem;
+  }
+
+  .card:hover {
+    display: none;
+  }
+  .filter-button {
+    font-size: 14px;
+  }
+
+  .paragraph-wrapper {
+    padding: 0;
+  }
+  .project-paragraph {
+    width: 75%;
+    float: left;
+    margin: 0;
+  }
+  .fa-positioning {
+    width: 10%;
+    justify-content: flex-end;
+    top: 50%;
+  }
+  .myh1 {
+    font-size: 45px;
+  }
+  .customBtn-margin {
+    margin-top: 150px;
+  }
+  .p-5 {
+    padding: 0 !important;
+  }
+}
