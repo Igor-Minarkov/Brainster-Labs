@@ -151,7 +151,7 @@ a {
 }
 .hero-picture {
   height: 60vh;
-  background-image: url("img/main-picture.jpg");
+  background-image: url("./imgs/hero-picture.jpg");
   background-size: cover;
 }
 .overlay {
