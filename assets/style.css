@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+
 p {
   margin-bottom: 0.5rem;
 }
@@ -518,7 +519,7 @@ small {
   }
   .myBtn.d-xs-none {
     margin-top: 1.25rem;
-    padding: 0rem 0.313;
+    padding: 0rem 0.5rem !important;
   }
   .h1-font {
     font-size: 2.5rem;
