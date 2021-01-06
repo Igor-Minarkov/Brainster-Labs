@@ -5,11 +5,12 @@
 }
 html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: #fcd232;
-  font-size: 14px;
+  font-size: 0.875rem;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -28,26 +29,26 @@ p {
 
 .header {
   background: #fcd232;
-  padding: 20px;
+  padding: 1.25rem;
   color: black;
   display: flex;
   justify-content: space-between;
   padding: 1rem 5rem;
   flex-wrap: nowrap;
   border-bottom: transparent;
-  box-shadow: 1px 3px 5px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0.06rem 0.19rem 0.313rem 0.313rem rgba(0, 0, 0, 0.1);
 }
 
 .img-logo {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 
 .menu li {
   color: black;
-  padding: 0 10px;
+  padding: 0 0.625rem;
   transition: 0.4s;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   font-weight: 500;
   list-style-type: none;
 }
@@ -55,7 +56,7 @@ p {
 ul.menu {
   display: flex;
   flex-wrap: nowrap;
-  margin-left: 40px;
+  margin-left: 2.5rem;
 }
 a {
   color: black;
@@ -67,20 +68,20 @@ a {
 
 .customBtn {
   background-color: #ff1300;
-  border: 1px solid #ff1300;
-  border-radius: 5px;
+  border: 0.063rem solid #ff1300;
+  border-radius: 0.313rem;
   color: white;
-  padding: 7px 15px;
+  padding: 0.438rem 0.938rem;
 }
 .customBtn .customBtn-margin {
-  margin-top: 31px;
-  padding: 5px 0;
+  margin-top: 1.938rem;
+  padding: 0.313rem 0;
 }
 
 .show-menu-btn,
 .hide-menu-btn {
   transition: 0.4s;
-  font-size: 30px;
+  font-size: 1.875;
   cursor: pointer;
   display: none;
 }
@@ -88,7 +89,7 @@ a {
   margin-left: auto;
 }
 .show-menu-btn i {
-  line-height: 100px;
+  line-height: 6.25rem;
 }
 
 .menu a:hover,
@@ -106,14 +107,14 @@ a {
 /* Filters */
 
 .filter-button {
-  font-size: 18px;
+  font-size: 1.125rem;
   background-color: #2f2e37;
   text-align: center;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   border-radius: none;
   font-weight: bold;
-  border-right: 1px solid grey;
+  border-right: 0.063rem solid grey;
   width: 33.3333%;
   border-radius: 0;
 }
@@ -144,13 +145,13 @@ a {
 .filter-button span {
   display: flex;
   justify-content: space-between;
-  padding: 10px 25px;
+  padding: 0.625rem 1.563rem;
 }
 .filter-button span p {
   width: 80%;
   float: left;
   margin: 0;
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 
 .fa-positioning {
@@ -159,7 +160,7 @@ a {
   justify-content: flex-end;
   align-items: center;
   top: 50%;
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 /* Main Picture/Section */
@@ -189,7 +190,7 @@ a {
 }
 
 .myImg {
-  height: 170px;
+  height: 10.625rem;
   overflow: hidden;
   border-top-left-radius: 0.7rem;
   border-top-right-radius: 0.7rem;
@@ -206,9 +207,9 @@ a {
 
 .card-heading {
   display: inline-block;
-  padding: 3px 15px;
-  margin-bottom: 5px;
-  font-size: 12px;
+  padding: 0.188rem 0.938rem;
+  margin-bottom: 0.313rem;
+  font-size: 0.75rem;
 }
 
 .card-heading-marketing {
@@ -227,11 +228,11 @@ a {
   margin-bottom: 0;
 }
 .myCard-text {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.1;
 }
 .card-content {
-  font-size: 13px;
+  font-size: 0.813rem;
   line-height: 1.3;
 }
 
@@ -251,12 +252,12 @@ a {
 .myBtn-card {
   float: right;
   background-color: #ff1300;
-  border: 1px solid #ff1300;
+  border: 0.063rem solid #ff1300;
   color: white;
-  padding: 5px 15px;
+  padding: 0.313rem 0.938rem;
   line-height: 1.4;
-  font-size: 15px;
-  margin-top: 40px;
+  font-size: 0.938rem;
+  margin-top: 2.5rem;
 }
 .card-body a:hover {
   text-decoration: none;
@@ -275,19 +276,20 @@ small {
 }
 
 #loadMore {
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 1.875rem;
+  padding-top: 1.875rem;
   text-align: center;
   width: 100%;
 }
 #loadMore a {
   background: #faa635;
-  border-radius: 3px;
+  border-radius: 0.188rem;
   color: white;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 0.625rem 1.875rem;
   transition: all 0.25s ease-out;
   -webkit-font-smoothing: antialiased;
+  text-decoration: none;
 }
 #loadMore a:hover {
   background-color: #042a63;
@@ -300,7 +302,7 @@ small {
   color: white;
   width: auto;
   margin-top: auto;
-  padding: 10px 0;
+  padding: 0.625rem 0;
 }
 .footer p {
   margin-bottom: 0;
@@ -309,17 +311,17 @@ small {
 /* Form */
 
 .form-padding {
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 .h1-font {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 .padding-top {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .visibility-hidden {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   visibility: hidden;
 }
 
@@ -368,10 +370,10 @@ small {
 
 .btnForm {
   background-color: #ff1300;
-  border: 1px solid #ff1300;
-  border-radius: 5px;
+  border: 0.063rem solid #ff1300;
+  border-radius: 0.313rem;
   color: white;
-  padding: 10px 15px;
+  padding: 0.625rem 0.938rem;
   margin-top: 0;
 }
 .btnForm:hover {
@@ -387,23 +389,23 @@ small {
 
 @media only screen and (max-width: 1240px) {
   .header {
-    padding: 20px;
+    padding: 1.25rem;
   }
   .customBtn {
-    padding: 3px 9px;
+    padding: 0.188rem 0.563rem;
   }
   .menu li {
     text-align: center;
   }
   .margin-sm {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   .xs-h3 {
     text-align: left;
   }
 
   .fb-border {
-    border-bottom: 1px solid lightslategray;
+    border-bottom: 0.063rem solid lightslategray;
     border-right: none;
   }
 
@@ -416,24 +418,34 @@ small {
   }
 
   .myCard-text {
-    font-size: 15px;
+    font-size: 0.938rem;
   }
   .filter-button span p {
-    font-size: 13px;
+    font-size: 0.813rem;
+  }
+}
+@media only screen and (max-width: 1047px) {
+  .customBtn {
+    padding: 0.063rem;
   }
 }
 @media only screen and (max-width: 1020px) {
   ul.menu {
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   .filter-button span p {
-    font-size: 11px;
+    font-size: 0.688rem;
+  }
+}
+@media only screen and (max-width: 993px) {
+  .customBtn {
+    padding: 0rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .header {
-    padding: 5px 20px;
+    padding: 0.313rem 1.25rem;
   }
 
   .show-menu-btn,
@@ -452,7 +464,7 @@ small {
     right: -100%;
     top: 0;
     text-align: left;
-    padding: 90px 0;
+    padding: 5.625rem 0;
     line-height: 3;
     transition: 0.7s;
     z-index: 1;
@@ -472,8 +484,8 @@ small {
   }
   .hide-menu-btn {
     position: absolute;
-    top: 5px;
-    right: 30px;
+    top: 0.313rem;
+    right: 1.875rem;
     color: white;
   }
   .hide-xs-button {
@@ -492,7 +504,7 @@ small {
     transform: none;
   }
   .filter-button span p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   #chk:checked ~ .menu {
@@ -502,14 +514,14 @@ small {
     display: block;
   }
   .margin-sm {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   .myBtn.d-xs-none {
-    margin-top: 20px;
-    padding: 0px 5px;
+    margin-top: 1.25rem;
+    padding: 0rem 0.313;
   }
   .h1-font {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 }
 
@@ -522,7 +534,7 @@ small {
   }
 
   .customBtn-margin {
-    margin-top: 150px;
+    margin-top: 9.375rem;
   }
   .card-width {
     max-width: 20rem;
@@ -532,7 +544,7 @@ small {
     display: none;
   }
   .filter-button {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .filter-button span {
@@ -549,10 +561,10 @@ small {
     top: 50%;
   }
   .h1-font {
-    font-size: 45px;
+    font-size: 2.813rem;
   }
   .customBtn-margin {
-    margin-top: 150px;
+    margin-top: 9.375rem;
   }
   .p-5 {
     padding: 0 !important;
