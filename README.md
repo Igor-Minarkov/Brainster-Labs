@@ -1,3 +1,3 @@
-# BrainsterProjects
+# Brainster Labs
 
-This is Project 01 named 'Brainster labs'. It is web project that import all the other projects from Brainster academy. Also there is form which allow us to send information about the student which we want to employ. The first page is simple page with three buttons, every one on click display different academy project with filters from JavaScript. On the cards there are informations about the projects. Other page is form with valid/invalid inputs. Simple/nice/good looking web page. 
+Very simple, responsive, a small project which was project num 01 in my studies. The first page is a simple page with three buttons/filters which display cards of different academy projects/categories. On the second page, there is a form that allows us to send information about the student who is applying for a job. On the mobile version, we have changed the menu and added mobile pagination.
