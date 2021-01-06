@@ -141,12 +141,12 @@ a {
   background-color: #eb3b3b;
   color: #2f2e37;
 }
-.paragraph-wrapper {
+.filter-button span {
   display: flex;
   justify-content: space-between;
   padding: 10px 25px;
 }
-.project-paragraph {
+.filter-button span p {
   width: 80%;
   float: left;
   margin: 0;
@@ -418,7 +418,7 @@ small {
   .myCard-text {
     font-size: 15px;
   }
-  .project-paragraph {
+  .filter-button span p {
     font-size: 13px;
   }
 }
@@ -426,7 +426,7 @@ small {
   ul.menu {
     margin-left: 10px;
   }
-  .project-paragraph {
+  .filter-button span p {
     font-size: 11px;
   }
 }
@@ -491,7 +491,7 @@ small {
   .grow:hover {
     transform: none;
   }
-  .project-paragraph {
+  .filter-button span p {
     font-size: 14px;
   }
 
@@ -535,10 +535,10 @@ small {
     font-size: 14px;
   }
 
-  .paragraph-wrapper {
+  .filter-button span {
     padding: 0;
   }
-  .project-paragraph {
+  .filter-button span p {
     width: 75%;
     float: left;
     margin: 0;
